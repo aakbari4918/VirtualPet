@@ -99,7 +99,7 @@ class Pet
         Health = 5; // Health level from 1 to 10 (1 is very sick, 10 is very healthy)
     }
 
-    public void Feed()
+    public void FEED()
     {
         Hunger = Math.Min(10, Hunger + 2);
         Health = Math.Min(10, Health + 1);
